@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/dd"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="24dp"
+                android:drawableRight="@drawable/company"
+                android:drawablePadding="10dp"
+                android:text="معرض التعاون للسيارات"
+                android:textColor="#D84C4C"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="28dp"
+                android:drawableRight="@drawable/map"
+                android:drawablePadding="10dp"
+                android:text="مقر المعرض:  نجران"
+                android:textColor="#D84C4C"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="32dp"
+                android:drawableRight="@drawable/call"
+                android:drawablePadding="10dp"
+                android:text="تليفون المعرض : 537817119"
+                android:textColor="#D84C4C"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="32dp"
+                android:drawableRight="@drawable/gmail"
+                android:drawablePadding="10dp"
+                android:text="الايميل: abo40@gmail.com"
+                android:textColor="#D84C4C"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:drawableRight="@drawable/pay"
+                android:drawablePadding="10dp"
+                android:gravity="right"
+                android:text="للشراء ارسل السعر على الحسابات التاليه:"
+                android:textColor="#FFEB3B"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="10dp"
+                android:text="الاهلى: SA98 1000 0045 8000 0024 8600"
+                android:textColor="#D84C4C"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:drawablePadding="10dp"
+                android:text="الراجحى: SA45 8945 0045 4250 5566 4000"
+                android:textColor="#D84C4C"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

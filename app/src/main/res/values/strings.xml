@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BOBCAR</string>
+    <string name="appbar_scrolling_view_behav">Model</string>
+    <string name="appbar_scrolling_view_b">Color</string>
+    <string name="appbar_scrolling_view_beh">Distanc per letter</string>
+    <string name="appbar_scrolling_view_">Description</string>
+</resources>

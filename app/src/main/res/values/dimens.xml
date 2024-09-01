@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizintal_margin">16dp</dimen>
+    <dimen name="main_fab_margin">16dp</dimen>
+    <dimen name="custome_card_elevation">10dp</dimen>
+    <dimen name="custome_card_CornerRadius">10dp</dimen>
+    <dimen name="custome_car_imgview_height">100dp</dimen>
+</resources>
